@@ -24,7 +24,7 @@
         </button>
 
         <ul class="md:flex md:items-center md:px-0 px-14 md:pb-0 pb-10 md:static absolute 
-        md:w-auto w-full top-28 duration-700 ease-in" :class="[open ? 'left-0' : 'left-[-100%]']">
+        md:w-auto w-full top-28 duration-700 ease-in" :class="[open ? 'left-0': 'left-[-100%]']">
             <li class="md:mx-4 md:my-0 my-6" v-for="link in links" :key="link.name">
                 <a :href="link.url" class="text-xl hover:text-gray-800">{{ link.name }}</a>
             </li>
