@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5 shadow-lg md:flex items-center justify-between">
+    <div class="px-5 shadow-lg md:flex items-center justify-between w-full">
         <div class="">
             <img src="../../static/Capture-removebg-preview.png" alt="" class="h-28 cursor-pointer">
         </div>

@@ -1,11 +1,8 @@
 
 <template>
-    <div class="bg-mainBg flex flex-col w-screen items-center">
+    <div class="bg-mainBg">
         <NavBar />
-        <div class="w-2/3 flex flex-row gap-x-20"> 
-            <NewsCollage/>
-            <div class="w-1/3 bg-gray-500"></div>
-        </div>
+        <NewsCollage />
     </div>
 </template>
 
@@ -16,7 +13,7 @@ import NewsCollage from '../components/newsCollage/newsCollage.vue'
 import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'Indexpage',
+    name: 'FrontPage',
     components: {
     NavBar,
     NewsCollage
